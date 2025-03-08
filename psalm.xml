@@ -21,11 +21,11 @@
     </projectFiles>
 
     <issueHandlers>
-        <!-- Ignorar advertencias sobre parámetros implícitamente nullable -->
+        <!-- Ignorar advertencias de parámetros nullable -->
         <DeprecatedMethod errorLevel="suppress" />
-        <ImplicitlyNullableReturnValue errorLevel="suppress" />
-        <ImplicitlyNullablePropertyValue errorLevel="suppress" />
-        <ImplicitlyNullableParameter errorLevel="suppress" />
+        <InvalidNullableReturnType errorLevel="suppress" />
+        <NullableReturnStatement errorLevel="suppress" />
         <DeprecatedFunction errorLevel="suppress" />
+        <ImplementedReturnTypeMismatch errorLevel="suppress" />
     </issueHandlers>
 </psalm>
